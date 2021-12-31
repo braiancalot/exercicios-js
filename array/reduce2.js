@@ -5,7 +5,7 @@ const alunos = [
     {nome: 'Ana', nota: 7.9, bolsista: true}
 ]
 
-//Desafio 1: Todos os alunos são bolsistas?
+// Desafio 1: Todos os alunos são bolsistas?
 console.log(alunos.map(a => a.bolsista).reduce(function(acumulador, atual){
     if(!atual){
         acumulador = atual
@@ -18,7 +18,10 @@ const todosBolsistas = (resultado, bolsista) => resultado && bolsista
 console.log(alunos.map(a => a.bolsista).reduce(todosBolsistas))
 
 
-//Desafio 2: Algum aluno é bolsista?
+
+
+
+// Desafio 2: Algum aluno é bolsista?
 console.log(alunos.map(a => a.bolsista).reduce(function(acumulador, atual){
     if(atual){
         acumulador = atual
