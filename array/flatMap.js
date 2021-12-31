@@ -29,4 +29,4 @@ Array.prototype.flatMap = function (callback) {
 }
 
 const notas2 = escola.flatMap(getNotaTurma)
-console.log(notas2)
+console.log(notas2) 
