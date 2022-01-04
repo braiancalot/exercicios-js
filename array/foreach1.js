@@ -7,4 +7,4 @@ aprovados.forEach(function(nome, indice){
 aprovados.forEach(nome => console.log(nome))
 
 const exibirAprovados = aprovado => console.log(aprovado)
-aprovados.forEach(exibirAprovados)
+aprovados.forEach(exibirAprovados) 
